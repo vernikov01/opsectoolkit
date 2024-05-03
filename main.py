@@ -2,7 +2,7 @@ from colorama import Fore
 import requests
 import time
 import subprocess
-from src import option1, option4
+from src import option1, option4, option3
 
 
 def main():
@@ -23,7 +23,7 @@ def main():
         banner()
         option1.main()
         print(f"\nPRESS 1 TO REGENERATE NAME AND USERNAME\n PRESS ENTER TO SAVE TO OPSEC TEXT FILE")
-        op1 = input(f"{Fore.RED}OpsecToolkit{Fore.RESET}>: ")
+        op1 = input(f"{Fore.RED}OpsecToolkit{Fore.WHITE}>: ")
         if op1 == '1':
             option1.main()
             main()
@@ -34,8 +34,13 @@ def main():
         time.sleep(3)
         main()
     elif command == '3':
-        print("Coming Soon...")
-        time.sleep(3)
+        subprocess.call('clear')
+        print("\033[H\033[3J", end="")
+        banner()
+        option3.main()
+        print(f"\nPRESS ENTER TO RETURN TO MAIN MENU...\n")
+        input(f"{Fore.RED}OpsecToolkit{Fore.WHITE}>: ")
+
         main()
 
     elif command == '4':
@@ -44,7 +49,7 @@ def main():
         banner()
         option4.main()
         print(f"\nPRESS ENTER TO RETURN TO MAIN MENU...\n")
-        input(f"{Fore.RED}OpsecToolkit{Fore.RESET}>: ")
+        input(f"{Fore.RED}OpsecToolkit{Fore.WHITE}>: ")
         main()
     elif command == '5':
         print("Coming Soon...")
