@@ -34,7 +34,7 @@ __OPTION 2:__ Fake Profile Picture Generator Choose between male or female. **(C
 
 __OPTION 3:__ A Fake Address Generator With your Choice of the Selected Region of the World. **(Coming SOON)**
 
-__OPTION 4:__ A Fake Phone number generator to go with your Identity you Build **(Coming SOON)**
+__OPTION 4:__ A Fake Phone number generator to go with your Identity you Build 
 
 __OPTION 5:__ A Fake pastebin dox generator that dumps your fake identity to pastebin to throw off anyone doing recon on you. **(Coming SOON)**
 
