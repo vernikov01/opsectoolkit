@@ -2,16 +2,15 @@ from colorama import Fore
 import requests
 import time
 import subprocess
-from src import option1
+from src import option1, option4
 
 
 def main():
     subprocess.call('clear')
     print("\033[H\033[3J", end="")
-    time.sleep(0.25)
     banner()
-    time.sleep(0.5)
-    print(f"{Fore.RED}Choose Between options 1-6 or type: help for more commands{Fore.RESET}\n")
+    time.sleep(0.25)
+    print(f"\n{Fore.RED}Choose Between options{Fore.CYAN} 1-6{Fore.RED} or type: {Fore.CYAN}help {Fore.RED}for more commands{Fore.RESET}\n")
     time.sleep(0.25)
     command = input(f"{Fore.RED}OpsecToolkit{Fore.RESET}>: ")
 
@@ -30,6 +29,35 @@ def main():
             main()
         else:
             main()
+    elif command == '2':
+        print("Coming Soon...")
+        time.sleep(3)
+        main()
+    elif command == '3':
+        print("Coming Soon...")
+        time.sleep(3)
+        main()
+
+    elif command == '4':
+        subprocess.call('clear')
+        print("\033[H\033[3J", end="")
+        banner()
+        option4.main()
+        print(f"\nPRESS ENTER TO RETURN TO MAIN MENU...\n")
+        input(f"{Fore.RED}OpsecToolkit{Fore.RESET}>: ")
+        main()
+    elif command == '5':
+        print("Coming Soon...")
+        time.sleep(3)
+        main()
+    elif command == '6':
+        print("Coming Soon...")
+        time.sleep(3)
+        main()
+        
+        
+
+    
 
 
 
@@ -44,12 +72,12 @@ def help():
 | | | || (_( )| |_( )| |       | | | || (_( )| |`\ || (_) |
 (_) (_)(____/'(____/'(_)       (_) (_)(____/'(_) (_)(_____) {Fore.RESET}""")
     print("\n")
-    print(f"{Fore.RED}OPTION 1: Fake Name and Username Generator.\n")
-    print("OPTION 2: Fake Profile Picture Generator Choose between male or female.\n")
-    print(f"OPTION 3: A Fake Address Generator With your Choice of the Selected Region of the World.\n")
-    print(f"OPTION 4: A Fake Phone number generator to go with your Identity you Build\n")
-    print(f"OPTION 5: A Fake pastebin dox generator that dumps your fake identity to pastebin\n to throw off anyone doing recon on you.\n")
-    print(f"OPTION 6: Extra Opsec strengthening advice and resources.\n\n Press Enter to Continue...\n\n")
+    print(f"{Fore.RED}OPTION 1: {Fore.CYAN}Fake Name and Username Generator.\n")
+    print(f"{Fore.RED}OPTION 2: {Fore.CYAN}Fake Profile Picture Generator Choose between male or female.\n")
+    print(f"{Fore.RED}OPTION 3: {Fore.CYAN}A Fake Address Generator With your Choice of the Selected Region of the World.\n")
+    print(f"{Fore.RED}OPTION 4: {Fore.CYAN}A Fake Phone number generator to go with your Identity you Build\n")
+    print(f"{Fore.RED}OPTION 5: {Fore.CYAN}A Fake pastebin dox generator that dumps your fake identity to pastebin\n to throw off anyone doing recon on you.\n")
+    print(f"{Fore.RED}OPTION 6: {Fore.CYAN}Extra Opsec strengthening advice and resources.\n\n{Fore.RED}Press Enter to Continue...\n\n")
     input(f"{Fore.RED}OpsecToolkit{Fore.RESET}>: ")
     main()
 
@@ -84,8 +112,7 @@ def banner():
         8888       `8888888P'         `8888888P'      888888888888  8888     `Y8.   8888        8888         
                                                                     
                                                                                                                     """)
-    time.sleep(0.5)
-    print(f"\n{Fore.BLUE}Version 1.0.0   A Toolkit to Help Strengthen your OpSec.{Fore.RESET}\n\n")
+    print(f"\n{Fore.LIGHTBLUE_EX}Version 1.0.0   A Toolkit to Help Strengthen your OpSec.{Fore.RESET}\n\n")
 
 if __name__ == "__main__":
     main()
