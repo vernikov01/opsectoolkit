@@ -32,7 +32,7 @@ __OPTION 1:__ Fake Name and Username Generator.
 
 __OPTION 2:__ Fake Profile Picture Generator Choose between male or female. **(Coming SOON)**
 
-__OPTION 3:__ A Fake Address Generator With your Choice of the Selected Region of the World. **(Coming SOON)**
+__OPTION 3:__ A Fake Address Generator With your Choice of the Selected Region of the World
 
 __OPTION 4:__ A Fake Phone number generator to go with your Identity you Build 
 
