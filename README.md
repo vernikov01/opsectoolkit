@@ -13,7 +13,7 @@ Then, navigate to the project directory and install the dependencies using pip:
 
 <h1>Getting Started</h1>
 
-<img src="https://github.com/vernikov01/opsectoolkit/blob/main/main.png">
+<img src="https://github.com/vernikov01/opsectoolkit/blob/main/screen.png">
 
 Once installed, you can start using OpSectoolkit by running the main script:
 
