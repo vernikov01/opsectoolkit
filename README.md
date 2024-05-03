@@ -40,7 +40,7 @@ __OPTION 5:__ A Fake pastebin dox generator that dumps your fake identity to pas
 
 __OPTION 6:__ Extra Opsec strengthening advice and resources. **(Coming SOON)**
 
-
+<img src="https://github.com/vernikov01/opsectoolkit/blob/main/src/helpmenu.png">
 
 <h2>Disclaimer</h2>
 
