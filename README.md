@@ -1,3 +1,7 @@
+<h1>OPSEC TOOLKIT v1</h1>
+
+**OpsecToolkit has the goal of becoming a framework in the making for the purpose of helping people new to the cybersec world into building a strong OpSec to protect the privacy and security of themselves over the internet.**
+
 ## Installation
 
 To install OpSecToolkit, simply clone the repository from GitHub:
