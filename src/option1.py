@@ -1,7 +1,6 @@
 def main():
     import random
     import string
-
     from colorama import Fore
     import subprocess
 
@@ -11,9 +10,7 @@ def main():
     def generate_username():
         first = random_first_name
         last = random.choice(last_names)
-        # Generate a random string of numbers and letters
         random_string = ''.join(random.choices('abcdelmnopqrstuvwxyzAFGIJKLQRSX1234567890_!@?.', k=4))
-        # Combine parts to create the username
         username = f"{first.lower()}_{random_string}"
         return username
 
